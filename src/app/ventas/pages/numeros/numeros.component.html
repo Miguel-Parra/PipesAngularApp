@@ -1,0 +1,41 @@
+
+<div class="text-layout">
+    <h1>DecimalPipe y Porcentajes</h1>
+    <p>
+        Pipes incluido en Angular - Usualmente en el Common Module.
+         
+    </p>
+</div>
+
+<div class="grid">
+    <div class="col-4">
+        <p-card header="DecimalPipe">
+            Este pipe da formato a un valor de acuerdo con las opciones de dígitos y 
+                las reglas locales. <strong>Firma:</strong> value_expression | number : digitsInfo : locale
+            <p><strong>Original </strong>{{ventasNetas}}</p>
+            <p><strong>Salida | number  </strong>{{ventasNetas | number}}</p>
+            <p><strong>Salida (ícono) | number  </strong> <i class="pi pi-dollar"></i>{{ventasNetas | number}}</p>
+            <p><strong>Salida | number:'1.2-2'  </strong>{{ventasNetas | number:'1.2-2'}}</p>
+        </p-card>
+    </div>
+    <div class="col-4">
+        <p-card header="CurrencyPipe" >
+            Transforma un número en una cadena de moneda, formateada de acuerdo con las reglas locales que determinan el tamaño \
+            y el separador del grupo. <strong>Firma: </strong> value_expression | currency: currencyCode : display : digitsInfo : locale 
+            <p><strong>Salida | currency  </strong>{{ventasNetas | currency}}</p>
+            <p><strong>Salida | currency:'BTC'  </strong>{{ventasNetas | currency:'BTC'}}</p>
+            <p><strong>Salida | currency:'':'symbol-narrow'  </strong>{{ventasNetas | currency:'':'symbol-narrow'}}</p>
+            <p><strong>Salida | currency:'':'symbol-narrow:'1.4-4'  </strong>{{ventasNetas | currency:'':'symbol-narrow':'1.4-4'}}</p>
+        </p-card>
+    </div>
+    <div class="col-4">
+        <p-card header="PercentPipe" >
+            Transforma un número en una cadena de porcentaje, formateada de acuerdo con las reglas locales que determinan el tamaño y 
+            el separador de grupos. <strong>Firma: </strong> value_expression | percent : digitsInfo : locale 
+            <p><strong>Original </strong>{{porcentaje}}</p>
+            <p><strong>Salida | percent: </strong>{{porcentaje | percent}}</p>
+            <p><strong>Salida | percent:'2.2-2' </strong>{{porcentaje | percent:'1.2-2'}}</p>
+   
+        </p-card>
+    </div>
+</div>
