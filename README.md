@@ -1,27 +1,63 @@
-# PipesApp
+# **PipesApp**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+Este proyecto fue elaborado con [Angular CLI](https://github.com/angular/angular-cli) versión 13.3.3.
+## **Funcionalidad**
 
-## Development server
+Esta aplicación permite:
+- Mostrar la funcionalidad de los Pipes incluidos en Angular. 
+- Mostrar la funcionalidad de Pipes personalizados (capitalizar strings y ordenar arreglos)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## **Temas** ##
+<br>
+Este es un breve listado de los temas aplicados en la elaboración de la aplicación:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Rutas
+- Todos los Pipes de Angular a la fecha:
+    - Uppercase
+    - Lowercase
+    - TitleCase
+    - Date
+    - Decimal
+    - Currency
+    - Percent
+    - i18nSelect
+    - i18Plural
+    - KeyValue
+    - Json
+    - Async
+- PrimeNG
+- BrowserAnimationsModule  (para el toggleable del FieldSet)
+- Módulo especializado para módulos de PrimeNG
+- Pipes personalizados
+- Argumentos hacia los Pipes
+- SortableTable manual y usando PrimeNg
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Tecnologías utilizadas:
 
-## Running unit tests
+- Angular
+- PrimeNg
+- PrimeFlex
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+<br>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## **Aplicación Netlify**
 
-## Further help
+<br>
+La aplicación se encuentra desplegada en:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+https://paisesapp-mp.netlify.app/
+
+<br>
+
+## **Recomendaciones**
+
+<br>
+
+- Recuerden reconstruir los módulos de Node con `npm install`
+
+- Para correr el servidor de desarrollo ejecute `ng serve -o`. La aplicación se recargará automáticamente si cambia cualquiera de los archivos de origen.
+
+- Si desea compilar el proyecto ejecute `ng build`.
