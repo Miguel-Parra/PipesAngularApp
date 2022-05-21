@@ -48,7 +48,7 @@ Tecnologías utilizadas:
 <br>
 La aplicación se encuentra desplegada en:
 
-https://paisesapp-mp.netlify.app/
+https://pipesapp-mp.netlify.app/ 
 
 <br>
 
