@@ -5,19 +5,19 @@
     </p>
 </div>
 <div class="grid">
-    <div class="col-4">
+    <div class="md:col-4 lg:col-4 sm:col-12">
         <p-card header="uppercase">
             <p><strong>Original:</strong> {{nombreLower}} </p>
             <p><strong>Resultado:</strong> {{nombreLower | uppercase}}</p>
         </p-card>
     </div>
-    <div class="col-4">
+    <div class="md:col-4 lg:col-4 sm:col-12">
         <p-card header="lowercase">
             <p><strong>Original:</strong> {{nombreUpper}} </p>
             <p><strong>Resultado:</strong> {{nombreUpper | lowercase}}</p>
         </p-card>
     </div>
-    <div class="col-4">
+    <div class="md:col-4 lg:col-4 sm:col-12">
         <p-card header="titlecase">
             <p><strong>Original:</strong> {{nombreCompleto}} </p>
             <p><strong>Resultado:</strong> {{nombreCompleto | titlecase}}</p>
@@ -33,7 +33,7 @@
 </div>
 
 <div class="grid">
-    <div class="col-6">
+    <div class="xl:col-6 lg:col-6 md:col-6 sm:col-12">
         <p-card>
             <ol>
                 <li>fecha</li>
@@ -51,7 +51,7 @@
             </ol>
         </p-card>
     </div>
-    <div class="col-6">
+    <div class="xl:col-6 lg:col-6 md:col-6 sm:col-12">
         <p-card>
             <ol>
                 <li>{{fecha}}</li>

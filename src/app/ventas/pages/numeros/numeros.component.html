@@ -8,7 +8,7 @@
 </div>
 
 <div class="grid">
-    <div class="col-4">
+    <div class="xl:col-4 lg:col-4 md:col-12 sm:col-12">
         <p-card header="DecimalPipe">
             Este pipe da formato a un valor de acuerdo con las opciones de dígitos y 
                 las reglas locales. <strong>Firma:</strong> value_expression | number : digitsInfo : locale
@@ -18,7 +18,7 @@
             <p><strong>Salida | number:'1.2-2'  </strong>{{ventasNetas | number:'1.2-2'}}</p>
         </p-card>
     </div>
-    <div class="col-4">
+    <div class="xl:col-4 lg:col-4 md:col-12 sm:col-12">
         <p-card header="CurrencyPipe" >
             Transforma un número en una cadena de moneda, formateada de acuerdo con las reglas locales que determinan el tamaño \
             y el separador del grupo. <strong>Firma: </strong> value_expression | currency: currencyCode : display : digitsInfo : locale 
@@ -28,7 +28,7 @@
             <p><strong>Salida | currency:'':'symbol-narrow:'1.4-4'  </strong>{{ventasNetas | currency:'':'symbol-narrow':'1.4-4'}}</p>
         </p-card>
     </div>
-    <div class="col-4">
+    <div class="xl:col-4 lg:col-4 md:col-12 sm:col-12">
         <p-card header="PercentPipe" >
             Transforma un número en una cadena de porcentaje, formateada de acuerdo con las reglas locales que determinan el tamaño y 
             el separador de grupos. <strong>Firma: </strong> value_expression | percent : digitsInfo : locale 
